@@ -87,6 +87,19 @@ public class Student {
         this.courses = courses;
     }
 
+    public void addModule(Module module) {
+        this.modules.add(module);
+    }
+
+    public void removeModule(Module module) {
+        for(int i = 0; i < this.modules.size(); i++) {
+            Module current = modules.get(i);
+            if(current.getName().equals(module.getName())) {
+                modules.remove(i);
+            }
+        }
+    }
+
     public List<Module> getModules() {
         return modules;
     }

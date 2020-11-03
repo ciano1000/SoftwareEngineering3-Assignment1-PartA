@@ -35,10 +35,17 @@ public class Module {
 
     public void addStudent(Student student) {
         this.students.add(student);
+        student.addModule(this);
     }
 
     public void removeStudent(Student student) {
-        this.students.removeIf(s->s.getId().equals(student.getId()));
+        for(int i = 0; i < this.students.size(); i++) {
+            Student current = students.get(i);
+            if(current.getId().equals(student.getId())) {
+                current.removeModule(this);
+                students.remove(i);
+            }
+        }
     }
 
     public List<Student> getStudents() {
