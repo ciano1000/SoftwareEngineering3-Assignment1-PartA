@@ -1,11 +1,8 @@
 language: java
 jdk:
   - openjdk11
-after_success:
-  - mvn clean
-  - mvn test
-
-  notifications:
-    email:
-      recipients:
-        - c.mcsweeney1@nuigalway.ie
+build:
+  ci:
+    - mkdir -p shippable/testresults
+    - mkdir -p shippable/codecoverage
+    - mvn clean cobertura:cobertura
