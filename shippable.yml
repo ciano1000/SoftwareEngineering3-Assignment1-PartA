@@ -1,0 +1,11 @@
+language: java
+jdk:
+  - openjdk11
+after_success:
+  - mvn clean
+  - mvn test
+
+  notifications:
+    email:
+      recipients:
+        - c.mcsweeney1@nuigalway.ie

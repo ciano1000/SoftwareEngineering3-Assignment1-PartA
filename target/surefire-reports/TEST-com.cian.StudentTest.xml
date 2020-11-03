@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.cian.StudentTest" time="0.245" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\College\SoftwareEngineering3\SEAssignmentProject\target\test-classes;D:\College\SoftwareEngineering3\SEAssignmentProject\target\classes;C:\Users\Cian\.m2\repository\joda-time\joda-time\2.10.8\joda-time-2.10.8.jar;C:\Users\Cian\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\Cian\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Cian\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Cian\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\Cian\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\Cian\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;"/>
+    <property name="java.vm.vendor" value=""/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="IE"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="D:\dev\Development_Files\java-1.8.0-openjdk-1.8.0.242-3.b08.redhat.windows.x86_64\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Cian\AppData\Local\Temp\surefire6959418885434137740\surefirebooter1790832469854633794.jar C:\Users\Cian\AppData\Local\Temp\surefire6959418885434137740 2020-11-03T19-02-56_154-jvmRun1 surefire379226234030825130tmp surefire_0259595269665220006tmp"/>
+    <property name="surefire.test.class.path" value="D:\College\SoftwareEngineering3\SEAssignmentProject\target\test-classes;D:\College\SoftwareEngineering3\SEAssignmentProject\target\classes;C:\Users\Cian\.m2\repository\joda-time\joda-time\2.10.8\joda-time-2.10.8.jar;C:\Users\Cian\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\Cian\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Cian\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Cian\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\Cian\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\Cian\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Cian"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="D:\dev\Development_Files\java-1.8.0-openjdk-1.8.0.242-3.b08.redhat.windows.x86_64\jre"/>
+    <property name="basedir" value="D:\College\SoftwareEngineering3\SEAssignmentProject"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="idea.version2020.1.3" value="true"/>
+    <property name="surefire.real.class.path" value="C:\Users\Cian\AppData\Local\Temp\surefire6959418885434137740\surefirebooter1790832469854633794.jar"/>
+    <property name="sun.boot.class.path" value="D:\dev\Development_Files\java-1.8.0-openjdk-1.8.0.242-3.b08.redhat.windows.x86_64\jre\lib\resources.jar;D:\dev\Development_Files\java-1.8.0-openjdk-1.8.0.242-3.b08.redhat.windows.x86_64\jre\lib\rt.jar;D:\dev\Development_Files\java-1.8.0-openjdk-1.8.0.242-3.b08.redhat.windows.x86_64\jre\lib\sunrsasign.jar;D:\dev\Development_Files\java-1.8.0-openjdk-1.8.0.242-3.b08.redhat.windows.x86_64\jre\lib\jsse.jar;D:\dev\Development_Files\java-1.8.0-openjdk-1.8.0.242-3.b08.redhat.windows.x86_64\jre\lib\jce.jar;D:\dev\Development_Files\java-1.8.0-openjdk-1.8.0.242-3.b08.redhat.windows.x86_64\jre\lib\charsets.jar;D:\dev\Development_Files\java-1.8.0-openjdk-1.8.0.242-3.b08.redhat.windows.x86_64\jre\lib\jfr.jar;D:\dev\Development_Files\java-1.8.0-openjdk-1.8.0.242-3.b08.redhat.windows.x86_64\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_242-b08"/>
+    <property name="user.name" value="Cian"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="D:\dev\Development_Files\java-1.8.0-openjdk-1.8.0.242-3.b08.redhat.windows.x86_64\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Cian\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Cian\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_242"/>
+    <property name="user.dir" value="D:\College\SoftwareEngineering3\SEAssignmentProject"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="D:\dev\Development_Files\java-1.8.0-openjdk-1.8.0.242-3.b08.redhat.windows.x86_64\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python27\;C:\Python27\Scripts;C:\Python38\Scripts\;C:\Python38\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\MinGW\bin;C:\Users\Cian\.kubectl\;C:\Program Files\PuTTY\;D:\dev\Development_Files\apache-maven-3.6.3\bin;D:\dev\Development_Files\java-1.8.0-openjdk-1.8.0.242-3.b08.redhat.windows.x86_64\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;D:\Joulica\helm\;D:\Joulica\dos2unix-7.4.1-win64\bin;D:\dev\handmade\handmade\ctime;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;D:\DevTools\terraform_0.12.26_windows_amd64;C:\Users\Cian\Downloads\premake-4.4-beta5-windows;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\Cian\bin;C:\Users\Cian\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\Cian\AppData\Local\Programs\Python\Python38-32\;C:\Users\Cian\AppData\Local\Microsoft\WindowsApps;C:\Users\Cian\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Cian\AppData\Roaming\npm;C:\Program Files (x86)\FAHClient;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.242-b08"/>
+    <property name="java.ext.dirs" value="D:\dev\Development_Files\java-1.8.0-openjdk-1.8.0.242-3.b08.redhat.windows.x86_64\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="getStudentUsername" classname="com.cian.StudentTest" time="0.017"/>
+</testsuite>
