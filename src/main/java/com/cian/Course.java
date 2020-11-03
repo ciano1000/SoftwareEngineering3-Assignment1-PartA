@@ -3,6 +3,7 @@ package com.cian;
 import org.joda.time.DateTime;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 public class Course {
@@ -29,13 +30,19 @@ public class Course {
     }
 
     public void addModule(Module module) {
+        module.getCourses().add(this);
         this.moduleList.add(module);
     }
 
     public void removeModule(Module module) {
-        this.moduleList.removeIf(m->m.getId().equals(module.getId()));
+        for(int i = 0; i < this.students.size(); i++) {
+            Module current = moduleList.get(i);
+            if(current.getName().equals(module.getName())) {
+                current.removeCourse(this);
+                moduleList.remove(i);
+            }
+        }
     }
-
     public List<Module> getModuleList() {
         return moduleList;
     }
@@ -45,11 +52,18 @@ public class Course {
     }
 
     public void addStudent(Student student) {
+        student.getCourses().add(this);
         this.students.add(student);
     }
 
     public void removeStudent(Student student) {
-        this.students.removeIf(s->s.getId().equals(student.getId()));
+        for(int i = 0; i < this.students.size(); i++) {
+            Student current = students.get(i);
+            if(current.getName().equals(student.getName())) {
+                current.removeCourse(this);
+                students.remove(i);
+            }
+        }
     }
 
     public List<Student> getStudents() {

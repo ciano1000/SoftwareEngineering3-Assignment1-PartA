@@ -54,7 +54,12 @@ public class Module {
     }
 
     public void removeCourse(Course course) {
-        this.courses.removeIf(c->c.getCourseName().equals(course.getCourseName()));
+        for(int i = 0; i < this.courses.size(); i++) {
+            Course current = courses.get(i);
+            if(current.getCourseName().equals(course.getCourseName())) {
+                courses.remove(i);
+            }
+        }
     }
 
     public List<Course> getCourses() {

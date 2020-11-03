@@ -22,6 +22,7 @@ public class Student {
         this.age = Years.yearsBetween(dateOfBirth, new DateTime()).getYears();
         this.courses = new ArrayList<>();
         this.modules = new ArrayList<>();
+        this.id = UUID.randomUUID();
     }
 
     public String getName() {
@@ -63,6 +64,19 @@ public class Student {
 
     public void setUsername(String username) {
         this.username = username;
+    }
+
+    public void addCourse(Course course) {
+        this.courses.add(course);
+    }
+
+    public void removeCourse(Course course) {
+        for(int i = 0; i < this.courses.size(); i++) {
+            Course current = courses.get(i);
+            if(current.getCourseName().equals(course.getCourseName())) {
+                courses.remove(i);
+            }
+        }
     }
 
     public List<Course> getCourses() {
